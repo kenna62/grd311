@@ -1,0 +1,572 @@
+<!DOCTYPE html> 
+
+<html lan="en"> 
+
+ 
+
+<head> 
+
+     
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+ 
+
+    <title>Ford Landing Page</title> 
+
+ 
+
+    <style> 
+
+         .hero { 
+
+           background-image: url("hero.png"); 
+
+        background-repeat: no-repeat; 
+
+        background-position: center center; 
+
+        background-size: cover; 
+
+        min-height: 100vh; 
+
+        color: white;
+
+        } 
+
+ 
+
+      .nav{ 
+
+        display: flex;   
+
+        justify-content: space-between;
+
+        
+
+      } 
+
+ 
+
+    
+
+ 
+
+     .grow-sm>ul>li,.boxright>ul>li { 
+
+        display: inline;
+       
+       text-decoration: none; 
+
+        list-style-type: none;  
+
+        text-transform: uppercase; 
+
+      } 
+
+       
+
+      .box { 
+
+        min-height:50px; 
+
+        width:222px 
+
+        margin-right: 30px;
+
+        gap: 20px;
+
+      } 
+
+ 
+
+ 
+
+      .grow-sm { 
+
+        flex-grow:2; 
+
+      } 
+
+ 
+
+      .blank { 
+
+        display:flex; 
+
+        height: 600px; 
+
+        width:100%; 
+
+      }  
+
+ 
+
+      .escape li { 
+
+        display:flex; 
+
+        flex-direction:row; 
+
+        justify-content:flex-start; 
+
+        list-style-type:none;  
+
+      } 
+
+ 
+
+      .buttons { 
+
+        display:flex; 
+
+        flex-direction:row; 
+
+        justify-content:flex-start; 
+
+ 
+
+      } 
+
+ 
+
+      .options { 
+
+         width:100%; 
+
+        display:flex;  
+
+        gap:10px; 
+
+        flex-direction:row; 
+
+        flex-wrap:wrap; 
+
+        justify-content:space-between; 
+ 
+
+ 
+
+      } 
+
+ 
+
+      .text li { 
+
+         display:flex; 
+
+        flex-direction:row; 
+
+        justify-content:flex-start; 
+
+        list-style-type: circle; 
+
+     } 
+
+ 
+
+     .grey { 
+
+        background-color: lightgray; 
+
+        width: 318px; 
+
+        height: 371px; 
+
+     } 
+
+ 
+
+     .carbox { 
+
+        width: 318px; 
+
+        height: 568px; 
+
+     } 
+
+     
+
+     .header { 
+
+        width: 814px; 
+
+        height: 110px; 
+
+     } 
+
+ 
+
+     .buildbutton { 
+
+        width: 100px; 
+
+        height: 39px; 
+
+        background-color:rgb(78, 137, 177); 
+
+        border-radius: 20px; 
+
+        padding: 10px 40px; 
+
+        margin-top: 115px; 
+
+        margin-left: 20px; 
+
+        margin-right: 145px; 
+
+     } 
+
+     .hero2 {
+
+        background-image: url("city.png");
+
+     }
+
+     .image {
+        display: flex;
+        width: 318px;
+        height: 250px;
+     }
+
+       
+
+    </style> 
+
+  </head> 
+
+  <body> 
+
+ 
+
+    <div class="hero"> 
+
+ 
+
+      <div class="nav"> 
+
+            <div class=" logo"> 
+
+                <a href="http://www.ford.com"><img src="fordlogo.png" alt="Ford Logo"></a> 
+
+            </div> 
+
+            <div class="grow-sm"> 
+
+           
+
+                <ul> 
+
+                    <li><a href="https://www.ford.ca/mustang/?gnav=header-brand-mustangshop">Vehicles</a></li> 
+
+                    <li><a href="https://shop.ford.ca/showroom/?gnav=header-shop-bp&linktype=build#/">Shop</a></li> 
+
+                    <li><a href="https://www.ford.ca/support/?gnav=header-brand-support">Support and Service</a></li> 
+
+                </ul> 
+
+           
+
+            </div> 
+
+            <div class="boxright"> 
+
+                <ul> 
+
+                    <li><a href="https://www.google.com/?zx=1793295714008"><img src="searchbar.png" alt="Search"></a></li> 
+
+                    <li><img src="locatedealer.png" alt="Locate"><a href="https://www.ford.ca/dealerships/?gnav=header-fd">Locate a Dealer</a></li> 
+
+                    <li><a href="https://i.imgflip.com/6aqsau.jpg"><img src="profile.png" alt="Profile"></a></li> 
+
+                    <li><a href="https://www.bing.com/videos/riverview/relatedvideo?sk=CSYN1&filters=ufn%3a%22Animaniacs+Yakko%27s+World%22+sid%3a%22a08ffe36-3208-7758-8104-bd108d5f0a52%22&qs=MB&pq=yakos&sc=15-5&asbe=OS&q=yakko%27s+world&cvid=5720662c7c8d4b4d8fd49d145188b7ab&gs_lcrp=EgRlZGdlKgYIARAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEAAYQDIGCAcQLhhAMgYICBAAGEAyBggJEAAYQNIBCDk2ODlqMGo0qAIIsAIB&PC=U531&ru=%2fsearch%3fsk%3dCSYN1%26filters%3dufn%253a%2522Animaniacs%2bYakko%2527s%2bWorld%2522%2bsid%253a%2522a08ffe36-3208-7758-8104-bd108d5f0a52%2522%26qs%3dMB%26pq%3dyakos%26sc%3d15-5%26asbe%3dOS%26q%3dyakko%2527s%2bworld%26cvid%3d5720662c7c8d4b4d8fd49d145188b7ab%26gs_lcrp%3dEgRlZGdlKgYIARAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAAGEAyBggGEAAYQDIGCAcQLhhAMgYICBAAGEAyBggJEAAYQNIBCDk2ODlqMGo0qAIIsAIB%26FORM%3dANAB01%26PC%3dU531&mmscn=vwrc&mid=EC852DE14CC321B72D00EC852DE14CC321B72D00&FORM=WRVORC&ntb=1&msockid=50467734d3c211f1b112c56a468cee65"><img src="language.png" alt="language"></a></li> 
+
+                </ul> 
+
+            </div> 
+
+        </div> 
+
+        <div class="blank"> 
+
+            /*This is a blank space in middle of the page*/ 
+
+        </div> 
+
+ 
+
+        <div class="escape"> 
+
+            <ul> 
+
+                <li>2026</li> 
+
+                <li>ESCAPE</li> 
+
+                <li>STARTING AT $30,350</li> 
+
+                <li><a href="https://www.nytimes.com/games/wordle/index.html">DETAILS</a></li> 
+
+            </ul> 
+
+        </div> 
+
+ 
+
+        <div class="buttons"> 
+
+            <div> 
+
+                <a href="https://www.bing.com/images/search?view=detailV2&ccid=8HX9Sq8F&id=769E28B77B74727DF0CE7ED35801D69499727DDC&thid=OIP.8HX9Sq8FZ5jB-5NLI4rlwQHaG9&mediaurl=https%3a%2f%2fi.pinimg.com%2f736x%2f56%2f2f%2fa7%2f562fa77c6107e4fb684cab7b52bb4460.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f075fd4aaf056798c1fb934b238ae5c1%3frik%3d3H1ymZTWAVjTfg%26pid%3dImgRaw%26r%3d0&exph=484&expw=515&q=html+coding+meme&FORM=IRPRST&ck=C5F28DE0BE06509EED7FEE6585EE107D&selectedIndex=4&itb=0">SEARCH INVENTORY</a> 
+
+            </div> 
+
+            <div> 
+
+                <a href="https://th.bing.com/th/id/OIP.3FZGSyKTRVudf6WGDUA9OQHaHN?w=177&h=180&c=7&r=0&o=7&pid=1.7&rm=3">2025 ESCAPE</a> 
+
+            </div> 
+
+         </div> 
+
+         
+
+    </div> 
+
+ 
+
+    <div class="hero2"> 
+
+        <div class="header"> 
+
+            <h1>FIND THE RIGHT RIDE FOR YOUR ROAD</h1> 
+
+            <h2>4 OPTIONS TO MAKE YOUR MOVE.</h2> 
+
+        </div>  
+
+ 
+
+        <div class="options"> 
+
+            <div class="carbox"> 
+
+                <div class="image"> 
+
+                    <img src="hybrid.png" alt="Hybrid"> 
+
+                </div> 
+
+                <div class="grey"> 
+
+                    <div class="text"> 
+
+                        <h2>ESCAPE PLUG-IN HYBRID</h2> 
+
+                        <h3>STARTING AT $35,400</h3> 
+
+                        <ul> 
+
+                            <li>2.5L IVCT ATKINSON CYCLE I-4 HYBRID ENGINE</li> 
+
+                            <li>STANDARD FRONT-WHEEL DRIVE</li> 
+
+                            <li>13.2" CENTER DISPLAY</li> 
+
+                            <li>101 EPA-EST. MPGE (COMBINED)</li> 
+
+                        </ul> 
+
+                    </div> 
+
+                    <div class="buildbutton"> 
+
+                        <a href="https://www.timeanddate.com/countdown/christmas">BUILD & PRICE</a> 
+
+                    </div> 
+
+                </div> 
+
+                 
+
+                 
+
+                 
+
+            </div> 
+
+            <div class="carbox"> 
+
+                <div class="image"> 
+
+                    <img src="active.png"> 
+
+                </div> 
+
+                <div class="grey"> 
+
+                    <div class="text"> 
+
+                        <h2>ESCAPE ACTIVE</h2> 
+
+                        <h3>STARTING AT $30,350</h3> 
+
+                        <ul> 
+
+                            <li>2.5 IVCT ATKINSON CYCLE I-4 HYBRID ENGINE</li> 
+
+                            <li>STANDARD FRONT-WHEEL DRIVE</li> 
+
+                            <li>13.2" CENTER DISPLAY</li> 
+
+                            <li>101 EPA-EST. MPGE (COMBINED)</li> 
+
+                        </ul> 
+
+                    </div> 
+
+                    <div class="buildbutton"> 
+
+                        <a href="https://www.timeanddate.com/countdown/christmas">BUILD & PRICE</a> 
+
+                    </div> 
+
+                </div> 
+
+            </div> 
+
+ 
+
+            <div class="carbox"> 
+
+                <div class="image"> 
+
+                    <img src="stline.png"> 
+
+                </div> 
+
+                <div class="grey"> 
+
+                    <div class="text"> 
+
+                        <h2>ESCAPE ST-LINE</h2> 
+
+                        <h3>STARTING AT $31,195</h3> 
+
+                        <ul> 
+
+                            <li>2.5 IVCT ATKINSON CYCLE I-4 HYBRID ENGINE</li> 
+
+                            <li>STANDARD FRONT-WHEEL DRIVE</li> 
+
+                            <li>13.2" CENTER DISPLAY</li> 
+
+                            <li>101 EPA-EST. MPGE (COMBINED)</li> 
+
+                        </ul> 
+
+                    </div> 
+
+                    <div class="buildbutton"> 
+
+                        <a href="https://www.timeanddate.com/countdown/christmas">BUILD & PRICE</a> 
+
+                    </div> 
+
+                </div> 
+
+ 
+
+ 
+
+            </div> 
+
+            <div class="carbox"> 
+
+                <div class="image"> 
+
+                    <img src="platinum.png"> 
+
+                </div> 
+
+                <div class="grey"> 
+
+                    <div class="text"> 
+
+                        <h2>ESCAPE PLATINUM</h2> 
+
+                        <h3>STARTING AT $37,940</h3> 
+
+                         <ul> 
+
+                            <li>2.5 IVCT ATKINSON CYCLE I-4 HYBRID ENGINE</li> 
+
+                            <li>STANDARD FRONT-WHEEL DRIVE</li> 
+
+                            <li>13.2" CENTER DISPLAY</li> 
+
+                            <li>101 EPA-EST. MPGE (COMBINED)</li> 
+
+                        </ul> 
+
+                    </div> 
+
+                    <div class="buildbutton"> 
+
+                        <a href="https://www.timeanddate.com/countdown/christmas">BUILD & PRICE</a> 
+
+                    </div> 
+
+                </div> 
+
+                 
+
+            </div> 
+
+ 
+
+        </div> 
+
+         
+
+         
+
+ 
+
+    </div> 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</body> 
+
+ 
+
+</html> 
